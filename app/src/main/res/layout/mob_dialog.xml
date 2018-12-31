@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Your Contact Details "
+            android:textAlignment="center"
+            android:paddingTop="7dp"
+            android:background="@color/md_black_1000"
+            android:textColor="@color/md_white_1000"
+            android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/mobile"/>
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile no"
+            android:inputType="number"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="true"
+            app:met_floatingLabel="normal" />
+
+
+
+    </LinearLayout>
+        <TextView
+            android:id="@+id/typeWriterView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:textSize="12sp"
+            android:text="*Sharing your mobile no with our orgainser will help him to reach you and tell you more about the event"
+            android:textStyle="bold" />
+
+
+
+
+
+
+        <com.github.rubensousa.raiflatbutton.RaiflatButton
+            android:id="@+id/interested"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:background="@color/md_blue_500"
+            android:text="Add to profile" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

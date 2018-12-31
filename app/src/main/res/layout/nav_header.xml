@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/md_blue_500">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/userimage"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginBottom="15dp" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/userimage"
+                android:layout_marginTop="155dp"
+                android:text="Akshay Verma"
+                android:textAllCaps="true"
+                android:textColor="@color/md_white_1000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/userimage"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="-237dp"
+                android:layout_marginTop="175dp"
+                android:layout_marginStart="4dp"
+                android:text="aksheyprajapati@gmail.com"
+                android:textColor="@color/md_white_1000"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/baseline_note_add_black_48" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:id="@+id/eventregister"
+                android:layout_marginTop="25dp"
+                android:text="Event Registartion"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/baseline_note_add_black_48" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:id="@+id/myEvents"
+                android:layout_marginTop="18dp"
+                android:text="My Events"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/baseline_note_add_black_48" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:id="@+id/Allevents"
+                android:layout_marginTop="18dp"
+                android:text="All Events"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:src="@drawable/baseline_note_add_black_48" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:id="@+id/Contactus"
+                android:layout_marginTop="18dp"
+                android:text="Contact Us"
+                android:textColor="@color/md_black_1000"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <com.github.rubensousa.raiflatbutton.RaiflatButton
+            android:id="@+id/logout"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="143dp"
+            android:background="@color/md_black_1000"
+            android:text="Log-Out" />
+
+    </LinearLayout>
+</RelativeLayout>

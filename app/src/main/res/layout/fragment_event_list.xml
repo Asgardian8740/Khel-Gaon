@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:ls="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#e7e7e7"
+    android:id="@+id/swipe"
+    android:layout_height="match_parent"
+    tools:context=".event_list">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.farbod.labelledspinner.LabelledSpinner
+            android:id="@+id/your_labelled_spinner"
+            ls:labelText="Choose your sport"
+            ls:widgetColor="@color/md_black_1000"
+            android:background="#FFF"
+            android:layout_margin="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        app:reverseLayout="true"
+        app:stackFromEnd="true"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/recyclerView"/>
+    </LinearLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

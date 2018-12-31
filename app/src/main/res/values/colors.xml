@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="splash">#f2f2f2</color>
+    <color name="colorFormMasterHeaderBackground">#DDDDDD</color>
+    <color name="colorFormMasterHeaderText">#000000</color>
+    <color name="colorFormMasterElementBackground">#FFFFFF</color>
+    <color name="colorFormMasterElementTextTitle">#222222</color>
+    <color name="colorFormMasterElementTextValue">#000000</color>
+    <color name="colorFormMasterDivider">#DDDDDD</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

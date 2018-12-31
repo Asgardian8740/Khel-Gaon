@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Khel Gaon</string>
+    <string name="app_id">198124927497455</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="category">
+        <item>ALL</item>
+        <item>ARCHERY</item>
+        <item>BASKETBALL</item>
+        <item>BODYBUILDING</item>
+        <item>CYCLING</item>
+        <item>FOOTBALL</item>
+        <item>GOLF</item>
+        <item>GYMNASTICS</item>
+        <item>RUNNING</item>
+        <item>SHOOTING</item>
+        <item>HOCKEY</item>
+        <item>WEIGHTLIFTING</item>
+        <item>POWERLIFTING</item>
+        <item>VOLLEYBALL</item>
+        <item>WRESTLING</item>
+        <item>KABADDI</item>
+        <item>BOXING</item>
+    </string-array>
+    <string-array name="cat">
+        <item>ALL</item>
+        <item>ARCHERY</item>
+        <item>BASKETBALL</item>
+        <item>BODYBUILDING</item>
+        <item>CYCLING</item>
+        <item>FOOTBALL</item>
+        <item>GOLF</item>
+        <item>GYMNASTICS</item>
+        <item>RUNNING</item>
+        <item>SHOOTING</item>
+        <item>HOCKEY</item>
+        <item>WEIGHTLIFTING</item>
+        <item>POWERLIFTING</item>
+        <item>VOLLEYBALL</item>
+        <item>WRESTLING</item>
+        <item>KABADDI</item>
+        <item>BOXING</item>
+    </string-array>
+
+    <string-array name="items">
+        <item>Organiser</item>
+        <item>Player</item>
+    </string-array>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

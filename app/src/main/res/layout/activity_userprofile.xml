@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/userLayoutOne"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/userProfileImageView"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:background="@drawable/baseline_add_a_photo_black_48" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15">
+
+        <EditText
+            android:id="@+id/userProfileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:hint="USERNAME"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textColorHint="@color/md_black_1000" />
+
+        <EditText
+            android:id="@+id/usersport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:hint="YOUR INTEREST IN SPORTS"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textColorHint="@color/md_black_1000" />
+        <EditText
+            android:id="@+id/userProfileStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:hint="ABOUT YOURSELF"
+            android:padding="15dp"
+            android:lines="3"
+            android:textAlignment="center"
+            android:textColorHint="@color/md_black_1000" />
+
+        <EditText
+            android:id="@+id/userwork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:hint="YOUR OCCUPATION"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textColorHint="@color/md_black_1000" />
+
+    </LinearLayout>
+
+
+        <com.github.rubensousa.raiflatbutton.RaiflatButton
+            android:id="@+id/saveprofile"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@color/md_blue_500"
+            android:text="Save Profile" />
+
+
+
+</LinearLayout>

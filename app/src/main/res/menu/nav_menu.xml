@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/register"
+        android:title="Event Registration"></item>
+
+    <item
+        android:id="@+id/Events"
+        android:title="Events"></item>
+    <item
+        android:id="@+id/mode"
+        android:title="Switch Mode"></item>
+    <item
+        android:id="@+id/Aboutus"
+        android:title="About Us"></item>
+    <item
+        android:id="@+id/logout"
+        android:title="Log Out"></item>
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="in.akshay.events">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".Events"
+        android:allowBackup="true"
+        android:configChanges="orientation|screenSize"
+        android:icon="@drawable/logotwo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.BrandedLaunch">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".LoginActivity"
+            android:launchMode="singleInstance" />
+        <activity android:name=".response" />
+        <activity
+            android:name=".userprofile"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity android:name=".fullscreen" />
+    </application>
+
+</manifest>

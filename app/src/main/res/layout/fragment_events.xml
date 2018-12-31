@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+  >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fill this form to Register your event."
+        android:id="@+id/text"
+        android:background="@color/md_blue_grey_400"
+        android:textColor="@color/md_black_1000"
+        android:textAlignment="center"
+
+        />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="453dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:descendantFocusability="beforeDescendants"
+        android:divider="#b5b5b5"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/slideView"
+        app:layout_constraintBottom_toBottomOf="@+id/text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ng.max.slideview.SlideView
+        android:id="@+id/slideView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:sv_animateSlideText="true"
+        app:sv_buttonBackgroundColor="#FFFFFF"
+        app:sv_reverseSlide="false"
+        app:sv_slideBackgroundColor="#3F51B5"
+        app:sv_slideText="Submit"
+        app:sv_slideTextColor="#FFFFFF"
+        app:sv_slideTextSize="18sp" />
+
+
+
+</android.support.constraint.ConstraintLayout>

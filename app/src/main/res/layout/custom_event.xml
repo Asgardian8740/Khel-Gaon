@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    card_view:cardCornerRadius="5dp">
+
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgcat"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/archery" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical">
+
+                <me.grantland.widget.AutofitTextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:maxLines="2"
+                    android:singleLine="false"
+                    android:text="WROLD DEADLIFT CHAMPIONSHIP 2018"
+                    android:textAllCaps="true"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="0.4"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="In Gurgaon"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="8dp"
+                            android:textAlignment="center" />
+
+
+                    </LinearLayout>
+
+
+                        <com.github.rubensousa.raiflatbutton.RaiflatButton
+                            android:id="@+id/participate"
+                            style="@style/Base.Widget.AppCompat.Button.Colored"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginEnd="4dp"
+                            android:layout_weight="0.6"
+                            android:layout_marginTop="0dp"
+                            android:text="Register" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/md_blue_700"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1.2">
+
+            <TextView
+                android:id="@+id/startDate"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_weight="0.4"
+                android:padding="5dp"
+                android:text="31-01-2019"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/md_white_1000"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="204dp"
+                tools:layout_editor_absoluteY="317dp" />
+
+
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:text="Archery"
+                android:textAlignment="center"
+                android:textColor="@color/md_white_1000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/endDate"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_weight="0.4"
+                android:padding="5dp"
+                android:text="12-02-2019"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/md_white_1000"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="76dp"
+                tools:layout_editor_absoluteY="255dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+
+
